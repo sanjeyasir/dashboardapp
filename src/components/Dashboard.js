@@ -53,7 +53,7 @@ const Dashboard = () => {
           rows={gridData} 
           columns={columns} 
           pageSize={5} 
-          rowsPerPageOptions={[5]} 
+          rowsPerPageOptions={[10]}
         />
       </div>
     </div>
