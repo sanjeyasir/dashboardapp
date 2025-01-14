@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import * as XLSX from "xlsx";
-import { DataGrid } from "react-data-grid";
 
 const FileUpload = ({ setGridData }) => {
     const handleFileUpload = (e) => {
